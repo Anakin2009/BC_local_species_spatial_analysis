@@ -429,6 +429,5 @@ plot(par_res_hfi, main = "Partial Residuals", xlab = "HFI")
 par_res_dist_water <- parres(fit1 , "Dist_Water" )
 plot(par_res_dist_water, main = "Partial Residuals", xlab = "Distance to Water (m)")
 
-fit_coord <- ppm(coyote_ppp ~ x + y, data = DATA)
-fit_coord
+
 ##########################################################################################
