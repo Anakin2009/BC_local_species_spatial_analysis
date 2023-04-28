@@ -34,7 +34,7 @@ coyote_spTrans$decimalLatitude <- coyote_spTrans@coords[,2]
 # Load the BC covariates
 load('BC_local_species_spatial_analysis/Project_Dataset/BC_Covariates.Rda')
 #ls()
-#BC_Covariates <- DATA
+BC_Covariates <- DATA # The dataset is called DATA or BC_Covariates
 #rm(DATA)
 
 ##########################################################################################
